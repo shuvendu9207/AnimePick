@@ -2,6 +2,8 @@
 
 A complete Machine Learning powered Anime Recommendation System combining Content-Based Filtering, Collaborative Filtering, Hybrid Scoring, and Semantic Search (NLP). Includes FastAPI backend, Streamlit frontend, and full cloud deployment.
 
+## Streamlit url: https://animepick.streamlit.app/
+
 ---
 
 ##Workflow Diagram
