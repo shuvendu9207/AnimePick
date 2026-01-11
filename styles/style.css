@@ -143,8 +143,9 @@ body {
 }
 
 .anime-list-container {
-    width: 90%;
-    display: flex;
+    width: 70%;
+    display: grid;
+    align-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin-top: 20px;
