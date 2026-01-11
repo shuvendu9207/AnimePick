@@ -143,12 +143,11 @@ body {
 }
 
 .anime-list-container {
-    width: 70%;
+    width: 100%;
     display: grid;
-    align-items: justify;
-    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .anime-box {
