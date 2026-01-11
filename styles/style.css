@@ -1,0 +1,192 @@
+body {
+    background-color: #0d1117;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(20,20,20,0.65);
+    box-shadow: 0 4px 18px rgba(0,0,0,0.6);
+}
+
+.logo-img {
+    height: 65px;
+    width: auto;
+    object-fit: contain;
+}
+
+.search-container {
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 40px;
+    padding: 6px 14px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+.page-spacer {
+    height: 1px;
+}
+
+.hero-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.hero-inner {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+.hero-left {
+    width: 60%;
+    color: white;
+}
+
+.hero-title {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.hero-rating {
+    font-size: 20px;
+    color: gold;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.hero-desc {
+    font-size: 15px;
+    color: #ccc;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    max-width: 90%;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.explore-btn {
+    background: #1f6feb;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.details-btn {
+    background: #444;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-right {
+    width: 35%;
+    text-align: center;
+}
+
+.hero-poster {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+}
+
+.section-title {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.anime-list-container {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.anime-box {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 14px;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.9);
+    transition: 0.3s ease;
+}
+
+.anime-box:hover {
+    transform: scale(1.05);
+}
+
+.box-img {
+    width: 230px;
+    height: auto;
+    /* object-fit: cover; */
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.box-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.box-rating {
+    font-size: 15px;
+    color: #f5d742;
+    margin-top: 4px;
+}
+
+.box-desc {
+    font-size: 13px;
+    margin-top: 8px;
+    color: #ccc;
+    line-height: 1.4;
+}

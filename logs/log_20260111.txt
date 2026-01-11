@@ -1,0 +1,10 @@
+2026-01-11 00:01:03,758 - INFO - Pipeline started
+2026-01-11 00:01:04,008 - INFO - Preprocessing done
+2026-01-11 00:04:35,907 - INFO - Pipeline started
+2026-01-11 00:04:36,192 - INFO - Preprocessing completed
+2026-01-11 00:04:36,252 - INFO - Loaded saved TF-IDF content model
+2026-01-11 00:04:36,260 - INFO - Loaded saved CF model
+2026-01-11 00:05:24,743 - INFO - Pipeline started
+2026-01-11 00:05:25,070 - INFO - Preprocessing completed
+2026-01-11 00:05:25,189 - INFO - Loaded saved TF-IDF content model
+2026-01-11 00:05:25,196 - INFO - Loaded saved CF model

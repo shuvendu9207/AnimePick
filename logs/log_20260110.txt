@@ -1,0 +1,40 @@
+2026-01-10 22:45:18,014 - INFO - Pipeline started
+2026-01-10 22:45:18,284 - INFO - Preprocessing finished
+2026-01-10 22:45:18,616 - INFO - Content-based model built and saved
+2026-01-10 22:45:18,640 - INFO - Collaborative model built and saved
+2026-01-10 22:45:18,641 - INFO - Hybrid model built and saved
+2026-01-10 22:45:18,643 - INFO - RMSE: 7.383400822005563
+2026-01-10 22:45:18,643 - INFO - MAE: 7.352666666666668
+2026-01-10 22:45:18,643 - INFO - Precision@10: 0.0
+2026-01-10 22:45:18,643 - INFO - Recall@10: 0
+2026-01-10 22:45:18,686 - INFO - Pipeline completed successfully
+2026-01-10 22:53:59,004 - INFO - Pipeline started
+2026-01-10 22:53:59,283 - INFO - Preprocessing finished
+2026-01-10 22:53:59,310 - INFO - Content model already exists. Skipping training.
+2026-01-10 22:59:53,289 - INFO - Pipeline started
+2026-01-10 23:05:56,468 - INFO - Pipeline started
+2026-01-10 23:07:28,119 - INFO - Pipeline started
+2026-01-10 23:10:08,699 - INFO - Pipeline started
+2026-01-10 23:17:39,867 - INFO - Pipeline started
+2026-01-10 23:29:47,774 - INFO - Pipeline started
+2026-01-10 23:29:48,145 - INFO - Preprocessing completed
+2026-01-10 23:35:31,727 - INFO - BM25 content model built and saved
+2026-01-10 23:35:31,792 - INFO - Loaded saved collaborative features
+2026-01-10 23:35:32,016 - INFO - Pipeline completed successfully.
+2026-01-10 23:49:57,519 - INFO - Pipeline started
+2026-01-10 23:49:57,897 - INFO - Preprocessing completed
+2026-01-10 23:49:58,018 - INFO - Loaded saved content model
+2026-01-10 23:49:58,020 - INFO - Loaded saved collaborative features
+2026-01-10 23:51:52,910 - INFO - Pipeline started
+2026-01-10 23:51:53,131 - INFO - Preprocessing completed
+2026-01-10 23:51:53,206 - INFO - Loaded saved content model
+2026-01-10 23:51:53,208 - INFO - Loaded saved collaborative features
+2026-01-10 23:53:20,601 - INFO - Pipeline started
+2026-01-10 23:53:20,834 - INFO - Preprocessing completed
+2026-01-10 23:53:20,932 - INFO - Loaded saved content model
+2026-01-10 23:53:20,936 - INFO - Loaded saved collaborative features
+2026-01-10 23:54:44,982 - INFO - Pipeline started
+2026-01-10 23:54:45,262 - INFO - Preprocessing completed
+2026-01-10 23:54:45,337 - INFO - Loaded saved content model
+2026-01-10 23:54:45,338 - INFO - Loaded saved collaborative features
+2026-01-10 23:55:33,683 - INFO - Pipeline started
